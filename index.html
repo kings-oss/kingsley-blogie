@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocate (Hons) Kingsley's Blog</title>
+    <style>
+        body {
+            font-family: 'Lucida Calligraphy', sans-serif;
+            background-color: #0D0D2B; /* Dark tone background */
+            color: #E6E6FA; /* Light blue-ish text */
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            color: #00A1E0;
+            text-align: center;
+        }
+        nav {
+            background-color: #1F1F3D;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #00A1E0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 100px auto 50px auto; /* Adjusted for fixed nav */
+        }
+        .about-me {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .about-me img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+    gap: 15px;
+}
+img {
+    width: 100%;
+}
+
+
+
+        .section {
+            margin: 50px 0;
+        }
+        .section h2 {
+            border-bottom: 2px solid #00A1E0;
+            padding-bottom: 10px;
+        }
+        .document-links a, .articles a {
+            display: block;
+            margin: 10px 0;
+            color: #00A1E0;
+            text-decoration: none;
+        }
+        .document-links a:hover, .articles a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #1F1F3D;
+            color: #E6E6FA;
+        }
+        /* Article Section Styles */
+        .articles-list {
+            max-width: 800px;
+            margin: auto;
+        }
+        .article {
+            background-color: #1A1A40;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .article h3 {
+            color: #00A1E0;
+        }
+        .article p {
+            color: #DCDCDC;
+        }
+        .read-more {
+            color: #00A1E0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="#poetry">Poetry Corner</a>
+        <a href="#legal">Legal Section</a>
+        <a href="#articles">Articles</a>
+        <a href="#documents">Documents</a>
+    </nav>
+
+    <div class="container">
+        <!-- About Me Section -->
+        <section id="about" class="about-me section">
+            <h1>Advocate (Hons) Kingsley</h1>
+            <img src="C:\Users\USER\Music\images\me.jpg" alt="Profile Picture">
+            <p>Hello, I am Advocate Kingsley, passionate about law, writing, and poetry. This is my space to share insights, ideas, and major developments in legal history, case law, and my creative endeavors.</p>
+        </section>
+
+        <!-- Scrolling Gallery Section -->
+        <div class="gallery">
+            <img src="C:\Users\USER\Music\images\law.jpg" alt="Legal Image 1" style="display: block;">
+            <img src="C:\Users\USER\Music\images\lawd.jpg" alt="Legal Image 2">
+            <img src="C:\Users\USER\Music\images\ksu law schl.jpg"alt="ksu law school">
+        </div>
+
+        <!-- Poetry Corner Section -->
+        <section id="poetry" class="section">
+            <h2>Poetry Corner</h2>
+            <p>Here, you'll find my latest poetic compositions, reflecting my thoughts on life, love, and the beauty of the world around us.</p>
+            <!-- she is my world
+             my love,my change
+             but 
+             she is not mine. -->
+        </section>
+
+        <!-- Legal Section -->
+        <section id="legal" class="section">
+            <h2>Legal Section</h2>
+            <h3>Major Case Laws</h3>
+            <p>A selection of critical case laws and precedents that have shaped modern legal systems.</p>
+
+            <h3>Vital Precedents</h3>
+            <p>Explore the key precedents that continue to guide legal interpretations and decisions.</p>
+        </section>
+
+        <!-- Articles Section -->
+        <section id="articles" class="section">
+            <h2>Articles</h2>
+            <div class="articles-list">
+                <!-- Article 1 -->
+                <div class="article">
+                    <h3>its all about the voice-over experience </h3>
+                    <p>An in-depth analysis of the beginner experience and how to make your first steps in voice over industry.</p>
+                    <a href="C:\Users\USER\Music\The voice-over experience with VALK. kingsley .pdf" class="read-more" target="_blank">Read More</a>
+                </div>
+                <!-- Article 2 -->
+                <div class="article">
+                    <h3>The Role of Precedent in Judicial Decisions</h3>
+                    <p>Exploring how past judgments influence current legal rulings and the importance of precedent in the legal system.</p>
+                    <a href="C:\Users\USER\Music\precedent law.pdf" class="read-more" target="_blank">Read More</a>
+                </div>
+                <!-- Add more articles as needed -->
+            </div>
+        </section>
+
+        <!-- Document Links Section -->
+        <section id="documents" class="section">
+            <h2>Documents</h2>
+            <div class="document-links">
+                <a href="C:\Users\USER\Music\Kingsley's tutorage.pdf" target="_blank">Download My law tutorage</a>
+                <a href="C:\Users\USER\Music\Contract 1 assignments_.pdf" target="_blank">View My contract law Exam Result Slip</a>
+                
+                <a href="C:\Users\USER\Music\FREEDOM OF SPEECH(1).pdf" target="_blank">View My social justice CAT Exam</a>
+                <a href="D:\other docs\In-Pursuit-Of-Purpose-Myles-Munroe-Christiandiet.com_.ng_.pdf" target="_blank">View this inspirational Relevant Documents</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Information</h2>
+            <p>Email: paulkingsley507@gmail.com</p>
+            <p>Phone: +254-74-5802-657</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Advocate (Hons) Kingsley. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript for image scrolling
+        let images = document.querySelectorAll('.gallery img');
+        let index = 0;
+
+        function showNextImage() {
+            images.forEach(img => img.style.display = 'none');
+            images[index].style.display = 'block';
+            index = (index + 1) % images.length;
+        }
+
+        // Initial call
+        showNextImage();
+        // Change image every 2 seconds
+        setInterval(showNextImage, 2000);
+    </script>
+</body>
+</html>
